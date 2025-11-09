@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.snow{
+    background-color: gold;
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    border-radius: 12px;
+
+}
+
+.snow .snowimg{
+    width: 100%;
+    height: 200px;
+}
+
+.snow .snowimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.snow .snowvalley{
+    width: 100%;
+    padding: 12px;
+}
+
+.snow .snowvalley h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 10px;
+    
+}
+.snow .snowvalley p{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin:20px 0px ;
